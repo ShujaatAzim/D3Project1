@@ -1,9 +1,10 @@
 import React from 'react';
+import LineChart from './LineChart';
 
-function App() {
+const App = () => {
   return (
     <div>
-      Hello, World!
+      <LineChart />
     </div>
   );
 }
